@@ -1,0 +1,1 @@
+<%@ Page Language="C#" %><html><head runat="server"><title>test2</title></head><body><form id="form1" runat="server">test6</form></body></html>

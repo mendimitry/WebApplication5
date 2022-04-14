@@ -1,0 +1,201 @@
+﻿a.button13 {
+    display: inline-block;
+    width: 15em;
+    font-size: 80%;
+    color: rgba(255,255,255,.9);
+    text-shadow: #2e7ebd 0 1px 2px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.1;
+    white-space: pre-line;
+    padding: .7em 0;
+    border: 1px solid;
+    border-color: #60a3d8 #2970a9 #2970a9 #60a3d8;
+    border-radius: 6px;
+    outline: none;
+    background: #60a3d8 linear-gradient(#89bbe2, #60a3d8 50%, #378bce);
+    box-shadow: inset rgba(255,255,255,.5) 1px 1px;
+}
+
+    a.button13:first-line {
+        font-size: 170%;
+        font-weight: 700;
+    }
+
+    a.button13:hover {
+        color: rgb(255,255,255);
+        background-image: linear-gradient(#9dc7e7, #74afdd 50%, #378bce);
+    }
+
+    a.button13:active {
+        color: rgb(255,255,255);
+        border-color: #2970a9;
+        background-image: linear-gradient(#5796c8, #6aa2ce);
+        box-shadow: none;
+    }
+
+
+a.button13 {
+    display: inline-block;
+    width: 15em;
+    font-size: 80%;
+    color: rgba(255,255,255,.9);
+    text-shadow: #2e7ebd 0 1px 2px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.1;
+    white-space: pre-line;
+    padding: .7em 0;
+    border: 1px solid;
+    border-color: #60a3d8 #2970a9 #2970a9 #60a3d8;
+    border-radius: 6px;
+    outline: none;
+    background: #60a3d8 linear-gradient(#89bbe2, #60a3d8 50%, #378bce);
+    box-shadow: inset rgba(255,255,255,.5) 1px 1px;
+}
+
+    a.button13:first-line {
+        font-size: 170%;
+        font-weight: 700;
+    }
+
+    a.button13:hover {
+        color: rgb(255,255,255);
+        background-image: linear-gradient(#9dc7e7, #74afdd 50%, #378bce);
+    }
+
+    a.button13:active {
+        color: rgb(255,255,255);
+        border-color: #2970a9;
+        background-image: linear-gradient(#5796c8, #6aa2ce);
+        box-shadow: none;
+    }
+
+.auto-style1 {
+    width: 1300px;
+}
+
+#navbar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 2px solid #0066FF;
+    border-radius: 20px 50px;
+    width: 550px;
+    text-align: center;
+    background-color: #33ADFF;
+}
+
+    #navbar li {
+        display: inline;
+    }
+
+    #navbar a {
+        color: #fff;
+        padding: 10px 10px;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-block;
+        width: 232px;
+    }
+
+        #navbar a:hover {
+            border-radius: 200px 20px;
+            background-color: #0066FF;
+        }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #143A3D;
+    font-family: monospace;
+    color: #7DE186;
+}
+
+p {
+    background: #06282C;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrap {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.container {
+    column-count: 3;
+    column-gap: 0;
+    margin-top: 15px;
+}
+
+.block {
+    display: inline-block;
+    width: 100%;
+    padding: 0 7.5px;
+}
+
+    .block > div {
+        margin-bottom: 15px;
+        font-size: 0;
+        border: 2px solid #06282C
+    }
+
+@media screen and (max-width:1024px) {
+    .container {
+        column-count: 2;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .container {
+        column-count: 1;
+    }
+}
+
+.loading1 {
+    width: 0;
+    padding: 12px;
+    background-image: radial-gradient(circle at 0% 0%, transparent 40%, rgb(0,255,0) 40%, rgb(0,255,0) 70%, transparent 70%), radial-gradient(circle at 100% 0%, transparent 40%, rgba(0,255,0,.2) 40%, rgba(0,255,0,.2) 70%, transparent 70%), radial-gradient(circle at 100% 100%, transparent 40%, rgba(0,255,0,.2) 40%, rgba(0,255,0,.2) 70%, transparent 70%), radial-gradient(circle at 0% 100%, transparent 40%, rgba(0,255,0,.2) 40%, rgba(0,255,0,.2) 70%, transparent 70%);
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-position: 100% 100%, 0 100%, 0 0, 100% 0;
+    -webkit-animation: loading1 linear .7s infinite;
+    animation: loading1 linear .7s infinite;
+}
+
+@-webkit-keyframes loading1 {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes loading1 {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.auto-style4 {
+    width: 397px;
+}
+
+.auto-style5 {
+    width: 1007px;
+}
+
+.auto-style6 {
+    width: 342px;
+}
+
+.auto-style7 {
+    width: 197px;
+}
+
